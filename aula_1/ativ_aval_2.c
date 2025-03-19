@@ -13,8 +13,8 @@ scanf("%d", &produto);
     printf("quanto voce recebe de salario? ");
 scanf("%f", &fixo);
 salario = (fixo + (produto * preco) * 15/100);
-    printf("ola %s", nome);
-    printf("o seu salario eh de: %.2f", salario);
+
+    printf("TOTAL = %.2f", salario);
 
 return 0;
 
