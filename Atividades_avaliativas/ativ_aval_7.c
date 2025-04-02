@@ -78,7 +78,7 @@ int main(){
 
 
 
-    m001 = valor/0.01;
+    m001 = round(valor/0.01);
     printf("%i moeda(s) de R$0,01\n", m001);
     valor = valor - m001*0.01;
 
